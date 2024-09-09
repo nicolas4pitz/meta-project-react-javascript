@@ -1,0 +1,7 @@
+npm init -y
+npm i typescript -D
+npx tsc --init
+node -v
+npm i @types/node tsx -D
+npm i fastify
+npm run dev
