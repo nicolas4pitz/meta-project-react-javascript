@@ -1,0 +1,2 @@
+src/db/index.ts, src/db/schema.ts, src/db/seed.ts: Arquivos de configuração e seed do banco de dados.
+
