@@ -5,14 +5,17 @@ node -v
 npm i @types/node tsx -D
 npm i fastify
 npm run dev
-docker compose up -d //monta o container e o banco de dados
+docker compose up -d //monta o container e o banco de dados com base no dockercompose.yaml
 docker ps //verifica os containers ativos
 docker logs 5c6666908e65 //mostra os logs do processo selecionado
 npm i drizzle-orm //ferramenta para fazer as querrys e requisições para o banco de dados (facilita o gerenciamento de tabelas e rows)
 npm i drizzle-kit -D // interface para a linha de comando
 npm i zod //biblioteca para validação de dados
-npx drizzle-kit generate //gera a tabela sql
+npx drizzle-kit generate //gera a tabela sql baseado no schema.ts
 npx drizzle-kit migrate //roda a migração, que faz a conexão com o banco de dados
 npm i postgres // instalar o postgres para executar a migração
 npx drizzle-kit migrate
 npx drizzle-kit studio //abre a interface web do drizzle-kit para visualizar a tabela
+npm i @paralleldrive/cuid2 // algoritmo que gera um id unico
+npm run seed // apos configurar o package.json com o comando seed, ele "enche" o banco de dados com os dados que estäo no arquivo seed.ts
+npm i fastify-type-provider-zod //importando o fastify-type-provider-zod que é um plugin para o fastify que vai fazer a validação dos dados e serialização
