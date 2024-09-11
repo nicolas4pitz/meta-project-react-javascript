@@ -1,2 +1,6 @@
 src/db/index.ts, src/db/schema.ts, src/db/seed.ts: Arquivos de configuração e seed do banco de dados.
 
+Como Tudo Se Conecta
+Configuração do Banco: O Docker executa o banco de dados PostgreSQL localmente. O arquivo .env contém a URL de conexão, e o env.ts valida essa URL.
+Interação com o Banco: O Drizzle ORM é configurado para lidar com as operações no banco de dados e as migrações, facilitando a gestão do esquema (tabelas e colunas) definido em schema.ts.
+Conexão ao Banco: O index.ts usa a variável DATABASE_URL e estabelece a conexão com o PostgreSQL. As operações no banco de dados podem então ser feitas de forma programática usando o Drizzle.

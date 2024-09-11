@@ -9,3 +9,5 @@ export default defineConfig({
         url: env.DATABASE_URL,
     },
 });
+
+//Este arquivo configura o Drizzle ORM, especificando o esquema do banco de dados e o local para armazenar as migrações.

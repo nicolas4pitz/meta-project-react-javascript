@@ -19,3 +19,5 @@ export const goalCompletions = pgTable("goal_completions", {
 		.notNull()
 		.defaultNow(),
 });
+
+//Este arquivo define a estrutura das tabelas goals (metas) e goalCompletions (conclusão de metas), com colunas, tipos de dados e chaves primárias/estrangeiras.

@@ -19,3 +19,4 @@ npx drizzle-kit studio //abre a interface web do drizzle-kit para visualizar a t
 npm i @paralleldrive/cuid2 // algoritmo que gera um id unico
 npm run seed // apos configurar o package.json com o comando seed, ele "enche" o banco de dados com os dados que estäo no arquivo seed.ts
 npm i fastify-type-provider-zod //importando o fastify-type-provider-zod que é um plugin para o fastify que vai fazer a validação dos dados e serialização
+npm i @fastify/cors //utilizaçao do cors para impedir que qualquer aplicação acesse o backend
