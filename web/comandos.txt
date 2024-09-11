@@ -8,4 +8,6 @@ npm i tailwind-merge // plugins
 npm i tailwind-variants // plugins
 npm i @radix-ui/react-radio-group // instala algumas biblioteca para componentização
 npm i @radix-ui/react-progress // instala algumas biblioteca para componentização
-  13 npm i @radix-ui/react-dialog // instala algumas biblioteca para componentização
+npm i @radix-ui/react-dialog // instala algumas biblioteca para componentização
+npm i @tanstack/react-query // biblioteca que facilita a ligação do front com back no react
+npm i react-hook-form @hookform/resolvers zod // biblioteca que auxilia na "manipulação" de formularios, junto com um auxiliador e o zod
