@@ -1,0 +1,11 @@
+npm create vite@latest // cria o frontend baseado no framework vite
+npm i // instalar as dependencias
+npm i @biomejs/biome -D //instala o biome.json, que é o formatador de código
+npm install -D tailwindcss postcss autoprefixer //instala o tailwindcss, (no framwork vite)
+npx tailwindcss init -p // cria os arquivos necessários para o tailwindcss funcionar
+npm i lucide-react // instala a biblioteca para react de icons
+npm i tailwind-merge // plugins
+npm i tailwind-variants // plugins
+npm i @radix-ui/react-radio-group // instala algumas biblioteca para componentização
+npm i @radix-ui/react-progress // instala algumas biblioteca para componentização
+  13 npm i @radix-ui/react-dialog // instala algumas biblioteca para componentização
